@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"normal": {
+			"model": "moarthings:cesium_block"
+		}
+	}
+}

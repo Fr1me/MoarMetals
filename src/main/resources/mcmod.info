@@ -1,0 +1,16 @@
+[
+{
+  "modid": "alloys",
+  "name": "Alloys",
+  "description": "Adds hundreds of new alloys and metals.",
+  "version": "1.0",
+  "mcversion": "1.11.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["XFireEyeZ"],
+  "credits": "Me myself and I",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
