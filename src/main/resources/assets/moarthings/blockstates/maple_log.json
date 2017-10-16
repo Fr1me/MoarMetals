@@ -1,0 +1,19 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "cube",
+        "transform": "forge:default-block",
+        "textures": {
+            "up": "moarthings:blocks/maple_log_top",
+            "down": "moarthings:blocks/maple_log_top",
+            "north": "moarthings:blocks/maple_log",
+            "south": "moarthings:blocks/maple_log",
+            "east": "moarthings:blocks/maple_log",
+            "west": "moarthings:blocks/maple_log"
+        }
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}

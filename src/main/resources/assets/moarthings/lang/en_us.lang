@@ -47,6 +47,8 @@ tile.calcium_block.name=Block Of Calcium
 tile.strontium_block.name=Block Of Strontium
 tile.barium_block.name=Block Of Barium
 tile.radium_block.name=Block Of Radium
+tile.planks_maple.name=Maple Planks
+tile.planks_sakura.name=Sakura Planks
 
 #Creative Tabs
 itemGroup.tools_mt=Moar Tools

@@ -7,7 +7,7 @@ import xfireeyez.core.block.BlockBase;
 
 public class BlockMetalBase extends BlockBase {
 
-	public BlockMetalBase(String name, CreativeTabs tab, float hardness, float resistance, String harvestTool, int harvestLevel, Material material) {
+	public BlockMetalBase(String name) {
 		super(name, MTCreativeTabs.metals, 6.0F, 24.0F, "pickaxe", 1, Material.IRON);
 	}
 
