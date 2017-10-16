@@ -10,6 +10,7 @@ public class ItemBlockVariants extends ItemBlock
 	public ItemBlockVariants(Block block) 
 	{
 		super(block);
+		setRegistryName(block.getRegistryName());
 		setHasSubtypes(true);
 		setMaxDamage(0);
 	}
