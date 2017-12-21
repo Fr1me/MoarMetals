@@ -1,6 +1,0 @@
-{
-	"parent": "block/cube_column",
-	"textures": {
-		"all": "moarthings:blocks/maple_log"
-	}
-}

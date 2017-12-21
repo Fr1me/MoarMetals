@@ -1,7 +1,0 @@
-{
-	"variants": {
-		"variant=maple": {"moarthings:maple_planks"},
-		"variant=sakura": {"moarthings:sakura_planks"}
-		
-	}
-}
