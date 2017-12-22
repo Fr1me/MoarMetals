@@ -1,9 +1,14 @@
-#Items
+item.francium_nugget.name=Francium Nugget
+item.lithium_axe.name=Lithium Axe
+item.lithium_hoe.name=Lithium Hoe
 item.lithium_ingot.name=Lithium Ingot
 item.lithium_nugget.name=Lithium Nugget
-
-#Blocks
-tile.lithium_block.name=Lithium Block
-
-#Tabs
-itemGroup.metals_mm=Metals
+item.lithium_pickaxe.name=Lithium Pickaxe
+item.lithium_shovel.name=Lithium Shovel
+item.lithium_sword.name=Lithium Sword
+itemGroup.moarmetals=MoarMetals
+tile.lithium_block.name=Block Of Lithium
+item.lithium_helmet.name=Lithium Helmet
+item.lithium_chestplate.name=Lithium Chestplate
+item.lithium_leggings.name=Lithium Leggings
+item.lithium_boot.name=Lithium Boots

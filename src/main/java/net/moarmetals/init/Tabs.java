@@ -9,40 +9,15 @@ import net.moarmetals.metal.Metal;
 
 public class Tabs {
 	
-	    public static CreativeTabs combat;
-	    public static CreativeTabs items;
-	    public static CreativeTabs machines;
-	    public static CreativeTabs tools;
-	    public static CreativeTabs worldgen;
-	    public static CreativeTabs metals;
+	    public static CreativeTabs mm;
 
 	    public static void initTabs() {
-	    	metals = new CreativeTabs("metals_mm"){
+	    	mm = new CreativeTabs("moarmetals") {
 	            @Override
 	            public Item getTabIconItem() {
 	                return Metals.lithium.getIngot();
 	            }
 	        };
-	    	
-//	        combat = new CreativeTabs("combat_mm"){
-//	            @Override
-//	            public Item getTabIconItem() {
-//	                return;
-//	            } 
-//	        };
-//	        
-//	        tools = new CreativeTabs("tools_mm"){
-//	            @Override
-//	            public Item getTabIconItem() {
-//	                return;
-//	            }
-//	        };
-//	        worldgen = new CreativeTabs("worldgen_mm"){
-//	            @Override
-//	            public Item getTabIconItem() {
-//	                return;
-//	            }
-//	        };
 	    }
-
+	    
 }
