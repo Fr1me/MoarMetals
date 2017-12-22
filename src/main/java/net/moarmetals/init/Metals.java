@@ -7,28 +7,33 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.moarmetals.Reference;
 import net.moarmetals.metal.Metal;
-import xfireeyez.core.Reference;
 
 public class Metals {
 	
 	public static Metal lithium = new Metal("lithium");
+//	public static Metal francium = new Metal("francium");
 	
 	
 	public static void createMetals() {
-		createMetal(lithium.getBlock(), lithium.getItem());
+		createMetal(lithium.getBlock(), lithium.getIngot(), lithium.getNugget());
+//		createMetal(francium.getBlock(), francium.getIngot(), francium.getNugget());
+		
 		
 	}
 	
-	public static void createMetal(Block block, Item item) {
+	public static void createMetal(Block block, Item ingot, Item nugget) {
 		//Blocks
 		GameRegistry.register(block);
 		GameRegistry.register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(new ResourceLocation(Reference.MODID), "inventory"));
 		
 		//Items
-		GameRegistry.register(item);
-		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(new ResourceLocation(Reference.MODID, item.getUnlocalizedName().substring(5)), "inventory"));
+		GameRegistry.register(ingot);
+		GameRegistry.register(nugget);
+		ModelLoader.setCustomModelResourceLocation(ingot, 0, new ModelResourceLocation(new ResourceLocation(Reference.MODID, ingot.getUnlocalizedName().substring(5)), "inventory"));
+		ModelLoader.setCustomModelResourceLocation(nugget, 0, new ModelResourceLocation(new ResourceLocation(Reference.MODID, nugget.getUnlocalizedName().substring(5)), "inventory"));
 		
 	}
 }

@@ -20,7 +20,7 @@ public class Tabs {
 	    	metals = new CreativeTabs("metals_mm"){
 	            @Override
 	            public Item getTabIconItem() {
-	                return Metals.lithium.getItem();
+	                return Metals.lithium.getIngot();
 	            }
 	        };
 	    	

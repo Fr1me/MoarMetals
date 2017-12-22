@@ -1,5 +1,9 @@
 #Items
 item.lithium_ingot.name=Lithium Ingot
+item.lithium_nugget.name=Lithium Nugget
 
 #Blocks
 tile.lithium_block.name=Lithium Block
+
+#Tabs
+itemGroup.metals_mm=Metals
