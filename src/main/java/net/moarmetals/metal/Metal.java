@@ -5,10 +5,8 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.common.util.EnumHelper;
 import net.moarmetals.Reference;
 import net.moarmetals.init.Tabs;
 
@@ -17,32 +15,11 @@ public class Metal {
 	public static MetalIngot ingot;
 	public static MetalNugget nugget;
 	public static MetalBlock block;
-	
-	public static String name;
-	
-	public static int harvestLevel;
-	public static int durability;
-	public static int enchantability;
-	
-	public static float efficiency;
-	public static float damage;
-	
-	public static final ToolMaterial material = EnumHelper.addToolMaterial(name, harvestLevel, durability, efficiency, damage, enchantability);
-	
 
-	public Metal(String name, int harvestLevel, int durability, float efficiency, float damage, int enchantability) {
-		ingot = new MetalIngot(name);
-		nugget = new MetalNugget(name);
-		block = new MetalBlock(name);
-		
-		this.name = name;
-		
-		this.harvestLevel = harvestLevel;
-		this.durability = durability;
-		this.enchantability = enchantability;
-		
-		this.efficiency = efficiency;
-		this.damage = damage;
+	public Metal(String name) {
+		this.ingot = new MetalIngot(name);
+		this.nugget = new MetalNugget(name);
+		this.block = new MetalBlock(name);
 	}
 	
 	public static Item getIngot() {

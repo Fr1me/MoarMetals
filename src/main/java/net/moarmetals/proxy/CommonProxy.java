@@ -28,5 +28,4 @@ public class CommonProxy implements IMMProxy {
     public void postInit(FMLPostInitializationEvent event) {
 
     }
-    
 }

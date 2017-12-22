@@ -12,7 +12,7 @@ import net.moarmetals.metal.Metal;
 
 public class Metals {
 	
-	public static Metal lithium = new Metal("lithium", 3, 1274, 8.0F, 3.0F, 10);
+	public static Metal lithium = new Metal("lithium");
 //	public static Metal francium = new Metal("francium");
 	
 	
@@ -26,7 +26,7 @@ public class Metals {
 	public static void createMetal(Block block, Item ingot, Item nugget) {
 		//Blocks
 		GameRegistry.register(block);
-		GameRegistry.register(new ItemBlock(block).setUnlocalizedName(block.getUnlocalizedName()).setRegistryName(block.getRegistryName()));
+		GameRegistry.register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(new ResourceLocation(Reference.MODID), "inventory"));
 		
 		//Items
