@@ -18,7 +18,7 @@ public class ItemBase extends Item implements IHasModel {
 
 	@Override
 	public void registerModels() {
-		MoarMetals.proxy.registerRenderer(this, 0, "inventory");
+		MoarMetals.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 
 }

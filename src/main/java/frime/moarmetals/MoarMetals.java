@@ -16,21 +16,21 @@ public class MoarMetals {
 	@Instance
 	public static MoarMetals instance;
 	
-	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.CLIENT_PROXY_CLASS)
+	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void preInit(FMLPreInitializationEvent e) {
+	public static void PreInit(FMLPreInitializationEvent e) {
 		
 	}
 	
 	@EventHandler
-	public static void init(FMLInitializationEvent e) {
+	public static void Init(FMLInitializationEvent e) {
 		
 	}
 	
 	@EventHandler
-	public static void postInit(FMLPostInitializationEvent e) {
+	public static void PostInit(FMLPostInitializationEvent e) {
 		
 	}
 

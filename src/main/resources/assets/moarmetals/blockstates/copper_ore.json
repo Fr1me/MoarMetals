@@ -1,5 +1,7 @@
 {
-    "variants": {
-        "normal": { "model": "moarmetals:copper_ore" }
-    }
+	"variants": {
+		"normal": {
+			"model": "moarmetals:copper_ore"
+		}
+	}
 }

@@ -1,6 +1,0 @@
-{
-   "parent": "item/handheld",
-   "textures": {
-       "layer0": "moarmetals:items/copper_axe"
-   }
-}
