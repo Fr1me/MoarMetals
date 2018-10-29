@@ -1,8 +1,7 @@
 package frime.moarmetals.object.block;
 
 import frime.moarmetals.MoarMetals;
-import frime.moarmetals.init.Blocks;
-import frime.moarmetals.init.Items;
+import frime.moarmetals.init.Metals;
 import frime.moarmetals.util.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -18,8 +17,8 @@ public class BlockBase extends Block implements IHasModel {
 		setRegistryName(name);
 		setCreativeTab(tab);
 		
-		Blocks.BLOCKS.add(this);
-		Items.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+		Metals.BLOCKS.add(this);
+		Metals.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
 	}
 
 	@Override

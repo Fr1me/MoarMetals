@@ -1,7 +1,7 @@
 package frime.moarmetals.object.item;
 
 import frime.moarmetals.MoarMetals;
-import frime.moarmetals.init.Items;
+import frime.moarmetals.init.Metals;
 import frime.moarmetals.util.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -13,7 +13,7 @@ public class ItemBase extends Item implements IHasModel {
 		setRegistryName(name);
 		setCreativeTab(tab);
 		
-		Items.ITEMS.add(this);
+		Metals.ITEMS.add(this);
 	}
 
 	@Override

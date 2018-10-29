@@ -1,8 +1,10 @@
 #Ingots
+item.aluminium_ingot.name=Aluminium Ingot
 item.copper_ingot.name=Copper Ingot
 
 #Blocks
 tile.copper_block.name=Block of Copper
+tile.aluminium_block.name=Block of Aluminium
 
 #Ores
 tile.copper_ore.name=Copper Ore
